@@ -2,6 +2,6 @@ services:
   postman_collection_update:
     image: fukuemon/postman_collection_update
     volumes:
-      - ./example/openapi.json:/openapi.json
+      - ./example/openapi.yaml:/openapi.yaml
     env_file:
       - .env
